@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" type="text/css" href="{{ "/assets/css/article.css" | prepend: site.baseurl }}">
+<div class="post-info">
+    <span>Written by&nbsp;</span>{{ page.author }}
+
+    {% if page.date %}
+      <br>
+      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      <!--<hr style="height:1px;border:none;border-top:1px dashed #0066CC;" />-->
+      <br/>
+      <br/>
+    {% endif %}
+</div>
+<div class="page-wrapper">
+    <div class="container--text">
+        {{ content }}
+    </div>
+</div>
+
+{% include comments.html %}
+{% include read-more.html %}

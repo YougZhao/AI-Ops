@@ -1,0 +1,29 @@
+# Basic
+title: AI-Ops
+author: UnionPay AI-Ops Lab
+description: 中国银联信息总中心智能化运维技术交流分享平台
+
+baseurl:         ""
+url:             "http://ai-ops.up082.cn"
+
+permalink: /:year/:month/:day/:title
+
+# Format
+highlighter: rouge
+markdown: kramdown
+#redcarpet:
+#  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
+
+# Pagination
+#gems: [jekyll-paginate]
+paginate: 15
+#paginate_path: "pages/:num/"
+
+# Gems
+plugins:
+  - jekyll-paginate
+# Social
+social:
+    weibo: yougzhao
+    github: yougzhao
+    mail: yougzhao@gmail.com
