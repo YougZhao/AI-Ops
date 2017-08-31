@@ -329,3 +329,37 @@ hr {
 .container--header h1 {
     margin: 60px 0 16px 0;
 }
+
+.pagination {
+  border-top: 0.5px solid #e5e5e5;
+  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
+  padding-top: 2rem;
+  position: relative;
+  text-align: center; }
+  .pagination span {
+    color: #353535;
+    font-size: 1.1rem; }
+  .pagination .top {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    color: #555;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+    opacity: .6; }
+    .pagination .top:hover {
+      opacity: 1; }
+  .pagination .arrow {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    color: #555;
+    position: absolute; }
+    .pagination .arrow:hover, .pagination .arrow:focus {
+      opacity: .6;
+      text-decoration: none; }
+  .pagination .left {
+    left: 0; }
+  .pagination .right {
+    right: 0; }
+
