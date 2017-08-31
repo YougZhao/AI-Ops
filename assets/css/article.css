@@ -58,7 +58,10 @@ body {
   background: #f39ca4; }
 
 .page-wrapper img {
-    width: 100%;
+  /*width: 100%;*/
+  display: block;
+  margin: 0 0 1rem;
+  max-width: 100%;
 }
 .page-wrapper a {
   text-decoration: none;
