@@ -1,27 +1,30 @@
-# Basic
-title: AI-Ops
-author: UnionPay AI-Ops Lab
-description: 中国银联信息总中心智能化运维技术交流分享平台
+# Permalinks
+permalink:      /:year/:month/:day/:title
 
+# Setup
+title:          AI-Ops
+author:         UnionPay AI-Ops Lab
+description:    中国银联信息总中心智能化运维技术交流分享平台
+paginate:       15
 baseurl:         ""
 url:             "http://ai-ops.up082.cn"
 
-permalink: /:year/:month/:day/:title
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
 
-# Format
-highlighter: rouge
-markdown: kramdown
-#redcarpet:
-#  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
-
-# Pagination
-#gems: [jekyll-paginate]
-paginate: 15
-#paginate_path: "pages/:num/"
+# Build settings
+markdown:       kramdown
 
 # Gems
 plugins:
   - jekyll-paginate
+
+# Format
+highlighter: rouge
+#highlighter: pygments
+
 # Social
 social:
     weibo: yougzhao
