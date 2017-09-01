@@ -15,6 +15,6 @@ UnionPay **AI-Ops** Lab 是中国银联信息总中心智能化运维技术交�
 * 运维数据分析
 * Java开发
 
-**AI-Ops** 通过 [Jekyll](http://jekyllrb.com/) 构建，由 [Github](https://github.com/) 进行代码托管，基于 [Markdown](https://en.wikipedia.org/wiki/Markdown) 进行内容编辑，主题由 [facebook.design](https://github.com/wnglmng/wnglmng.github.io) 主题模版修改生成，感谢作者 WngLMng 开发出这么漂亮的主题。
+**AI-Ops** 基于 [Jekyll](http://jekyllrb.com/) 构建开发，由 [Github](https://github.com/) 进行代码托管，通过 [Markdown](https://en.wikipedia.org/wiki/Markdown) 进行内容编辑，主题由 [facebook.design](https://github.com/wnglmng/wnglmng.github.io) 主题模版修改生成，感谢作者 WngLMng 开发出这么漂亮的主题。
 
 >**欢迎投稿，请参照 [Markdown入门指南](/2017/08/20/2) 编辑文章，发送到zhaoyang1@unionpay.com**
